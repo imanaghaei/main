@@ -1,0 +1,259 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>an ovel v5</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+
+        body {
+            /*border: 1px solid rgb(201, 12, 12);*/
+            background-color: #c2a788;
+            width: 100%;
+            height: 100%;
+            box-sizing: border-box;
+            display: grid;
+            grid-template-columns: auto;
+            grid-template-rows: 4% auto 4%;
+
+        }
+
+        .container {
+            background-color: #F5F5DC;
+            /*border: 1px solid rgb(201, 12, 12);*/
+            width: 94%;
+            height: 100%;
+            border-radius: 5px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: auto;
+            margin-bottom: auto;
+            /*position: relative;*/
+            box-shadow: 3px 3px 10px #8b4411,
+                -7px -7px 10px #ad9e93;
+            box-sizing: border-box;
+            display: grid;
+            grid-template-columns: auto;
+            grid-template-rows: 2% 50px 3% auto;
+        }
+
+
+
+        /*.container {
+            display: grid;
+            grid-template-rows: auto auto auto;
+        }*/
+
+
+        .circle {
+            /*background-color: rgba(250, 234, 165, 0.8);*/
+            /*border: 1px solid rgba(0, 0, 0, 0.8);*/
+            display: grid;
+            grid-template-columns: auto auto auto;
+            justify-content: center;
+            /*margin-top: -330px;*/
+            /*grid-column-start: 2;
+            grid-column-end: 3;*/
+            /*position: absolute;*/
+        }
+
+        /*
+        .cir {
+            width: 20px;
+            height:20px;
+            border-radius: 50%;
+            background-color: rgb(0, 0, 0);
+            border: 1px solid rgba(72, 255, 0, 0);
+
+        }*/
+
+        .oval1 {
+            border: 1px solid #00000000;
+            background-color: #CFB997;
+            width: 90%;
+            height: 20px;
+            border-radius: 50%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 10px;
+            box-shadow: 3px 15px 7px #8b44116c;
+            /*margin-top: 50px;*/
+            /*position: absolute;*/
+        }
+
+        .oval2 {
+            border: 1px solid #00000000;
+            background-color: #F5F5DC;
+            width: 100%;
+            height: 25px;
+            border-radius: 50%;
+            margin-left: auto;
+            margin-right: auto;
+            /*position: absolute;*/
+            margin-top: -7px;
+        }
+
+        /*
+        #A1 {
+            margin-top: -40px;
+        }
+
+        #A2 {
+            margin-top: -20px;
+        }
+
+        #A3 {
+            margin-top: -20px;
+        }*/
+
+        .vac {
+            width: 100%;
+            height: 100%;
+            border: 1px solid #00000000;
+            background-color: #f5f5dc00;
+
+        }
+
+        .midsec {
+            background-color: #0d1623;
+            display: grid;
+            /*justify-content: space-evenly;*/
+            grid-template-columns: auto auto;
+            grid-template-rows: auto;
+
+        }
+
+        /*
+        .pic {
+            width: 100%;
+            height: 100%;
+            background-color: #8b4411;
+
+        }
+        */
+        .content-text {
+            width: 100%;
+            height: 100%;
+            background-color: #ffafaf;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            /*padding-right: 5%;
+            padding-left: 5%;
+            padding-bottom: 5%;
+            padding-top: 5%;*/
+        }
+
+        .text {
+            width: 90%;
+            height: 90%;
+            background-color: #00ff40;
+            display: flex;
+            align-items: center;
+            overflow: auto;
+            border-radius: 25px;
+            padding-right: 5%;
+            padding-left: 5%;
+            padding-bottom: 5%;
+            padding-top: 5%;
+            /*margin-top: 5%;*/
+        }
+
+        .forpic {
+            width: 100%;
+            height: 100%;
+            background-color: #0d1623;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+
+        img {
+            width: 55%;
+            height: 100%;
+            background-color: #0d1623;
+            /*display: grid;
+            grid-template-columns: auto;
+            grid-template-rows: auto;
+            /*position: relative;*/
+            /**/
+            /*background-color: #4b3eff;
+            border-radius: 25px;*/
+            /*margin-left: auto;
+            margin-right: auto;
+            margin-bottom: auto;
+            margin-top: auto;*/
+        }
+
+        .ftext {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        P {
+            color: white;
+            background-color: #0d1623;
+            direction: rtl;
+            font-size: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="fivac">vac1</div>
+    <div class="container">
+        <div class="vac1.5"></div>
+        <div class="oval1">
+            <div class="oval2"></div>
+            <div class="circle">
+                <div class="cir" id="A2"></div>
+                <div class="cir" id="A1"></div>
+                <div class="cir" id="A3"></div>
+            </div>
+        </div>
+
+        <div class="vac"></div>
+        <div class="midsec">
+            <div class="forpic">
+                <img src="pics/mainpic.png">
+            </div>
+            <div class="ftext">
+                <p>در اين كشتي درآ،<br/> پا در ركاب ماست درياها... <br/> مترس از موج،<br/> بسم الله مَجراها و مُرساها</p>
+            </div>
+        </div>
+        <div>
+            <div class="content-text">
+                <div class="text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+                    گرافیک
+                    است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
+                    تکنولوژی
+                    مورد
+                    نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد
+                    گذشته،
+                    حال
+                    و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان
+                    رایانه
+                    ای
+                    علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت می توان امید داشت که
+                    تمام
+                    و
+                    دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد وزمان مورد نیاز شامل حروفچینی
+                    دستاوردهای
+                    اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+                </div>
+            </div>
+        </div>
+        <div class="finsec">3</div>
+    </div>
+    <div class="finvac">vac3</div>
+</body>
+
+</html>
