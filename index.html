@@ -14,7 +14,7 @@
 
         body {
             /*border: 1px solid rgb(201, 12, 12);*/
-            background-color: #c2a788;
+            background-color: #E7FBBE;
             width: 100%;
             height: 100%;
             box-sizing: border-box;
@@ -25,11 +25,11 @@
         }
 
         .container {
-            background-color: #F5F5DC;
+            background-color: #FFFDDE;
             /*border: 1px solid rgb(201, 12, 12);*/
-            width: 94%;
+            width: 97%;
             height: 100%;
-            border-radius: 5px;
+            border-radius: 50px;
             margin-left: auto;
             margin-right: auto;
             margin-top: auto;
@@ -40,7 +40,8 @@
             box-sizing: border-box;
             display: grid;
             grid-template-columns: auto;
-            grid-template-rows: 2% 50px 3% auto;
+            grid-template-rows: auto auto auto auto;
+            row-gap: 4%;
         }
 
 
@@ -89,7 +90,7 @@
 
         .oval2 {
             border: 1px solid #00000000;
-            background-color: #F5F5DC;
+            background-color: #DFF6FF;
             width: 100%;
             height: 25px;
             border-radius: 50%;
@@ -121,7 +122,16 @@
         }
 
         .midsec {
-            background-color: #0d1623;
+            width: 92%;
+            height: 100%;
+            border-radius: -50px;
+            border-left: 1px solid #ffffff;
+            border-bottom: 1px solid #ffffff;
+            border-top: 1px solid #000000;
+            border-right: 1px solid #000000;
+            box-shadow: 5px 5px 5px #00012b , -5px -5px 5px #00012b;
+            margin: auto auto;
+            background-color: #000533;
             display: grid;
             /*justify-content: space-evenly;*/
             grid-template-columns: 50% 50%;
@@ -138,9 +148,11 @@
         }
         */
         .content-text {
-            width: 100%;
+            width: 92%;
             height: 100%;
-            background-color: #ffafaf;
+            background-color: #1363DF;
+            border-radius: 10px;
+            margin: auto auto;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -153,7 +165,7 @@
         .text {
             width: 90%;
             height: 90%;
-            background-color: #00ff40;
+            background-color: #DFF6FF;
             display: flex;
             align-items: center;
             overflow: auto;
@@ -168,7 +180,8 @@
         .forpic {
             width: 100%;
             height: 100%;
-            background-color: #0d1623;
+            margin: auto auto;
+            /*background-color: #0d1623;*/
             display: flex;
             align-items: center;
             justify-content: center;
@@ -178,7 +191,8 @@
         img {
             width: 55%;
             height: 100%;
-            background-color: #0d1623;
+            margin: auto auto;
+            /*background-color: #0d1623;*/
             /*display: grid;
             grid-template-columns: auto;
             grid-template-rows: auto;
@@ -200,7 +214,7 @@
 
         P {
             color: white;
-            background-color: #0d1623;
+            /*background-color: #0d1623;*/
             direction: rtl;
             font-size: 10px;
         }
@@ -210,7 +224,6 @@
 <body>
     <div class="fivac">vac1</div>
     <div class="container">
-        <div class="vac1.5"></div>
         <div class="oval1">
             <div class="oval2"></div>
             <div class="circle">
@@ -219,8 +232,6 @@
                 <div class="cir" id="A3"></div>
             </div>
         </div>
-
-        <div class="vac"></div>
         <div class="midsec">
             <div class="forpic">
                 <img src="pics/mainpic.png">
