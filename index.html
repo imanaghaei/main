@@ -15,25 +15,26 @@
         body {
             /*border: 1px solid rgb(201, 12, 12);*/
             background-color: #E7FBBE;
-            width: 100%;
-            height: 100%;
+            /*width: 100%;
+            height: 100%;*/
             box-sizing: border-box;
             display: grid;
             grid-template-columns: auto;
-            grid-template-rows: 4% auto 4%;
+            grid-template-rows: 4% 92% 4%;
 
         }
 
         .container {
             background-color: #FFFDDE;
             /*border: 1px solid rgb(201, 12, 12);*/
-            width: 95%;
-            height: 100%;
-            border-radius: 15px;
-            margin-left: auto;
-            margin-right: auto;
-            margin-top: auto;
-            margin-bottom: auto;
+            /*width: 95%;
+            height: 98%;*/
+            border-radius: 10px;
+            margin-left: 2%;
+            margin-right: 2%;
+            margin-top: 2%;
+            margin-bottom: 2%;
+            overflow: auto;
             /*position: relative;*/
             box-shadow: 3px 3px 10px #8b4411,
                 -7px -7px 10px #ad9e93;
@@ -45,80 +46,11 @@
         }
 
 
-
-        /*.container {
-            display: grid;
-            grid-template-rows: auto auto auto;
-        }*/
-
-
-        .circle {
-            /*background-color: rgba(250, 234, 165, 0.8);*/
-            /*border: 1px solid rgba(0, 0, 0, 0.8);*/
-            display: grid;
-            grid-template-columns: auto auto auto;
-            justify-content: center;
-            /*margin-top: -330px;*/
-            /*grid-column-start: 2;
-            grid-column-end: 3;*/
-            /*position: absolute;*/
-        }
-
-        /*
-        .cir {
-            width: 20px;
-            height:20px;
-            border-radius: 50%;
-            background-color: rgb(0, 0, 0);
-            border: 1px solid rgba(72, 255, 0, 0);
-
-        }*/
-
-        .oval1 {
-            border: 1px solid #00000000;
-            background-color: #cfb99700;
-            width: 90%;
-            height: 20px;
-            border-radius: 50%;
-            margin-left: auto;
-            margin-right: auto;
-            margin-bottom: 10px;
-            /*box-shadow: 3px 15px 7px #8b44116c;*/
-            /*margin-top: 50px;*/
-            /*position: absolute;*/
-        }
-
-        .oval2 {
-            border: 1px solid #00000000;
-            background-color: #dff6ff00;
-            width: 100%;
-            height: 25px;
-            border-radius: 50%;
-            margin-left: auto;
-            margin-right: auto;
-            /*position: absolute;*/
-            margin-top: -7px;
-        }
-
-        /*
-        #A1 {
-            margin-top: -40px;
-        }
-
-        #A2 {
-            margin-top: -20px;
-        }
-
-        #A3 {
-            margin-top: -20px;
-        }*/
-
-        .vac {
-            width: 100%;
-            height: 100%;
-            border: 1px solid #00000000;
-            background-color: #f5f5dc00;
-
+        .top-sec{
+            background-color: #1363DF;
+            margin: auto auto;
+            margin-top: 2%;
+            display: flex;
         }
 
         .midsec {
@@ -129,24 +61,17 @@
             border-bottom: 1px solid #ffffff;
             border-top: 1px solid #000000;
             border-right: 1px solid #000000;
-            box-shadow: 5px 5px 5px #00012b , -5px -5px 5px #00012b;
+            box-shadow: 5px 5px 5px #00012b, -5px -5px 5px #00012b;
             margin: auto auto;
             background-color: #000533;
             display: grid;
             /*justify-content: space-evenly;*/
-            grid-template-columns: 50% 50%;
+            grid-template-columns: 60% 40%;
             grid-template-rows: auto;
 
         }
 
-        /*
-        .pic {
-            width: 100%;
-            height: 100%;
-            background-color: #8b4411;
 
-        }
-        */
         .content-text {
             width: 92%;
             height: 100%;
@@ -219,31 +144,31 @@
             font-size: 10px;
         }
 
-        .finsec{
-            background-color: #FF1818;
-            border-bottom-left-radius: 15px;
-            border-bottom-right-radius: 15px;
+        .finsec {
+            background-color: #ff0000;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
         }
     </style>
 </head>
 
 <body>
-    <div class="fivac">vac1</div>
+    <div></div>
     <div class="container">
-        <div class="oval1">
-            <div class="oval2"></div>
-            <div class="circle">
-                <div class="cir" id="A2"></div>
-                <div class="cir" id="A1"></div>
-                <div class="cir" id="A3"></div>
-            </div>
+        <div class="top-sec">
+                <div>1</div>
+                <div>2</div>
+                <div>3</div>
+                <div>4</div>
+                <div>5</div>
         </div>
         <div class="midsec">
             <div class="forpic">
-                <img src="pics/mainpic.png">
+                <img src="pics/main.png">
             </div>
             <div class="ftext">
-                <p>در اين كشتي درآ،<br/> پا در ركاب ماست درياها... <br/> مترس از موج،<br/> بسم الله مَجراها و مُرساها</p>
+                <p>در اين كشتي درآ،<br /> پا در ركاب ماست درياها... <br /> مترس از موج،<br /> بسم الله مَجراها و مُرساها
+                </p>
             </div>
         </div>
         <div>
@@ -270,7 +195,7 @@
         </div>
         <div class="finsec">3</div>
     </div>
-    <div class="finvac">vac3</div>
+    <div>33</div>
 </body>
 
 </html>
