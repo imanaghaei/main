@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Iman Aghaei</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Lalezar&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Blaka&family=Lalezar&family=Lateef&display=swap"
+        rel="stylesheet">
+
     <style>
-        
         * {
             margin: 0;
             padding: 0%;
@@ -39,6 +40,9 @@
             margin-top: 2%;
             margin-bottom: 2%;
             overflow: auto;
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+            direction: rtl;
             /*position: relative;*/
             box-shadow: 3px 3px 10px #8b4411,
                 -7px -7px 10px #ad9e93;
@@ -48,6 +52,12 @@
             grid-template-rows: auto auto auto auto;
             row-gap: 4%;
         }
+
+
+        .container::-webkit-scrollbar {
+            display: none;
+        }
+
 
 
         .top-sec {
@@ -101,11 +111,11 @@
             width: 92%;
             height: 100%;
             border-radius: -50px;
-            border-left: 1.5px solid #ffffff;
-            border-bottom: 1.5px solid #ffffff;
-            border-top: 1.5px solid #000000;
-            border-right: 1.5px solid #000000;
-            box-shadow: 5px 5px 5px #00012b, -5px -5px 5px #00012b;
+            border-left: 1.5px solid #000000;
+            border-bottom: 1.5px solid #000000;
+            border-top: 1.5px solid #ffffff;
+            border-right: 1.5px solid #ffffff;
+            box-shadow: 5px 5px 5px #444444, -5px -5px 5px #444444;
             margin: auto auto;
             /*background-color: #0098ac;*/
             background: rgb(64, 59, 74);
@@ -123,12 +133,18 @@
             justify-content: center;
             /*font-family: 'Lalezar', cursive;*/
         }
-        
+
         .content-text {
             width: 92%;
             height: 100%;
-            background-color: #94b1db;
-            border-radius: 10px;
+            background: rgb(64, 59, 74);
+            background: linear-gradient(-103deg, rgba(64, 59, 74, 1) 0%, rgba(231, 233, 187, 1) 94%);
+            border-radius: -50px;
+            border-left: 1.5px solid #ffffff;
+            border-bottom: 1.5px solid #ffffff;
+            border-top: 1.5px solid #000000;
+            border-right: 1.5px solid #000000;
+            box-shadow: 5px 5px 5px #444444, -5px -5px 5px #444444;
             margin: auto auto;
             display: flex;
             align-items: center;
@@ -139,20 +155,34 @@
             padding-top: 5%;*/
         }
 
+        .tit1 {
+            font-family: 'Blaka', cursive;
+            font-family: 'Lalezar', cursive;
+        }
+
         .text {
             width: 90%;
             height: 90%;
-            background-color: #DFF6FF;
+            background-color: #E7FBBE;
+            box-shadow: inset 3px 3px 10px #8b4411,
+                inset -3px -3px 10px #8b4411;
             display: flex;
             align-items: center;
             overflow: auto;
-            border-radius: 25px;
+            border-radius: 5px;
             padding-right: 5%;
             padding-left: 5%;
-            padding-bottom: 5%;
-            padding-top: 5%;
+            padding-bottom: 10%;
+            padding-top: 10%;
             /*margin-top: 5%;*/
             direction: rtl;
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+            font-family: 'Lateef', cursive;
+        }
+
+        .text::-webkit-scrollbar {
+            display: none;
         }
 
         .forpic {
@@ -190,7 +220,7 @@
             color: rgb(0, 0, 0);
             /*background-color: #0d1623;*/
             direction: rtl;
-            font-size: 10px;
+            font-size: 12px;
             font-family: 'Lalezar', cursive;
         }
 
@@ -213,12 +243,13 @@
             <div class="ci5"></div>
         </div>
         <div class="midsec">
+            <div class="ftext">
+                <p>در اين كشتي درآ،<br /> پا در ركاب ماست درياها... <br /> مترس از موج،<br /> &laquo;بسم الله مَجراها و
+                    مُرساها&raquo;
+                </p>
+            </div>
             <div class="forpic">
                 <img src="pics/main.png">
-            </div>
-            <div class="ftext">
-                <p>در اين كشتي درآ،<br /> پا در ركاب ماست درياها... <br /> مترس از موج،<br /> &laquo;بسم الله مَجراها و مُرساها&raquo;
-                </p>
             </div>
         </div>
         <div>
