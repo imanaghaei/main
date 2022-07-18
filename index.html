@@ -7,7 +7,7 @@
     <title>Iman Aghaei</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Blaka&family=Lalezar&family=Lateef&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Blaka&family=Gulzar&family=Lalezar&family=Lateef&display=swap"
         rel="stylesheet">
     <script src="https://kit.fontawesome.com/f5163bafb3.js" crossorigin="anonymous"></script>
     <link rel="stylesheet"
@@ -18,6 +18,7 @@
             margin: 0;
             padding: 0%;
             box-sizing: border-box;
+            text-align: justify;
         }
 
         body {
@@ -85,7 +86,8 @@
             align-content: center;
             align-items: center;
         }
-        .ci1:hover{
+
+        .ci1:hover {
             background-color: #E7FBBE;
             color: #8b44119c;
         }
@@ -103,7 +105,8 @@
             align-content: center;
             align-items: center;
         }
-        .ci2:hover{
+
+        .ci2:hover {
             background-color: #E7FBBE;
             color: #8b44119c;
         }
@@ -121,7 +124,8 @@
             align-content: center;
             align-items: center;
         }
-        .ci3:hover{
+
+        .ci3:hover {
             background-color: #E7FBBE;
             color: #8b44119c;
         }
@@ -139,10 +143,12 @@
             align-content: center;
             align-items: center;
         }
-        .ci4:hover{
+
+        .ci4:hover {
             background-color: #E7FBBE;
             color: #8b44119c;
         }
+
         .ci5 {
             width: 25px;
             height: 25px;
@@ -156,10 +162,12 @@
             align-content: center;
             align-items: center;
         }
-        .ci5:hover{
+
+        .ci5:hover {
             background-color: #E7FBBE;
             color: #8b44119c;
         }
+
         .ci6 {
             width: 5px;
             height: 5px;
@@ -203,10 +211,12 @@
             color: #000000;
             font-size: 12px;
         }
+
         #i2 {
             color: #000000;
             font-size: 17px;
         }
+
         #i3 {
             color: #000000;
             font-size: 22px;
@@ -216,6 +226,7 @@
             color: #000000;
             font-size: 17px;
         }
+
         #i5 {
             color: #000000;
             font-size: 12px;
@@ -280,7 +291,7 @@
             box-shadow: inset 3px 3px 10px #8b4411,
                 inset -3px -3px 10px #8b4411;
             display: flex;
-            align-items: center;
+            align-items: flex-start;
             overflow: auto;
             border-radius: 5px;
             padding-right: 5%;
@@ -292,6 +303,8 @@
             -ms-overflow-style: none;
             scrollbar-width: none;
             font-family: 'Lateef', cursive;
+            flex-direction: column;
+            justify-content: center;
         }
 
         .text::-webkit-scrollbar {
@@ -337,6 +350,16 @@
             font-family: 'Lalezar', cursive;
         }
 
+        .t1 {
+            color: rgb(0, 0, 0);
+            /*background-color: #0d1623;*/
+            direction: rtl;
+            font-size: 18px;
+            border-bottom: 1px solid #410101;
+            font-family: 'Gulzar', serif;
+        }
+
+
         .finsec {
             background: rgb(64, 59, 74);
             background: linear-gradient(180deg, rgba(64, 59, 74, 1) 0%, rgba(231, 233, 187, 1) 94%);
@@ -350,15 +373,15 @@
     <div></div>
     <div class="container">
         <div class="top-sec">
-            <div class="ci1"><i class="fa-solid fa-user-tie" id="i1"></i></div>
+            <div class="ci1"><i class="fa-solid fa-user-tie" id="i1" alt="رزومه" title="رزومه"></i></div>
             <div class="ci6"></div>
-            <div class="ci2"><i class="fa-solid fa-scroll" id="i2"></i></div>
+            <div class="ci2"><i class="fa-solid fa-scroll" id="i2" alt="مقاله‌ها" title="مقاله‌ها"></i></div>
             <div class="ci7"></div>
-            <div class="ci3"><i class="fa-solid fa-house" id="i3"></i></div>
+            <div class="ci3"><i class="fa-solid fa-house" id="i3" alt="خانه" title="خانه"></i></div>
             <div class="ci8"></div>
-            <div class="ci4"><i class="fa-solid fa-pencil" id="i4"></i></div>
+            <div class="ci4"><i class="fa-solid fa-pencil" id="i4" alt="سیاهه‌ها" title="سیاهه‌ها"></i></div>
             <div class="ci9"></div>
-            <div class="ci5"><i class="fa-solid fa-phone" id="i5"></i></div>
+            <div class="ci5"><i class="fa-solid fa-phone" id="i5" alt="تماس با من" title="تماس با من"></i></div>
         </div>
         <div class="midsec">
             <div class="ftext">
@@ -372,10 +395,16 @@
         </div>
         <div>
             <div class="content-text">
-                <div class="text">از نیمه‌های فروردین ۷۵ چند روزی بیشتر نگذشته بود که به دنیا آمدم خانه به تازگی از
-                    کشمکش‌های خانه‌تکانی و جدال‌های نابرابر دید و بازدیدهای عید جان سالم به در برده بود (البته آن روزها
-                    کمتر کسی در فکر پسته کاسه آجیل بود) که با قدوم مبارک من (خداوند همه خودپسندان عالم را حفظ بفرماید!
-                    آمین!) دوباره زیر و رو شد... بر عکس همه انسان‌های عادی تحصیلات خود را از دبستان شروع کردم و مدارج
+                <div class="text">
+                    <p class="t1">صحنه نخست: از اَلَست تا دو راهی دنیا</p>
+                    <tmain>از نیمه‌های فروردین ۷۵ چند روزی بیشتر نگذشته
+                        بود که به دنیا آمدم خانه به تازگی از
+                        کشمکش‌های خانه‌تکانی و جدال‌های نابرابر دید و بازدیدهای عید جان سالم به در برده بود (البته آن
+                        روزها
+                        کمتر کسی در فکر پسته کاسه آجیل بود) که با قدوم مبارک من (خداوند همه خودپسندان عالم را حفظ
+                        بفرماید!
+                        آمین!) دوباره زیر و رو شد... </tmain>بر عکس همه انسان‌های عادی تحصیلات خود را از دبستان شروع
+                    کردم و مدارج
                     ترقی را یکی پس از دیگری با همیت و جدیت فراوان واترقیدم... القصه بالاخره با هر زاجراتی که بود مقاطع
                     راهنمایی و دبیرستان را به همین منوال طی نمودم که ناگهان درخت (فیلمی به نویسندگی و کارگردانی صفی
                     یزدانیان) تازه داشت دلم به داشتن یک سیکل و یک دیپلم نیم‌بند گرم می‌شد که به زور و ضرب چماق، من و
