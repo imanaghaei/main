@@ -21,6 +21,9 @@
             box-sizing: border-box;
             text-align: justify;
         }
+        html {
+  scroll-behavior: smooth;
+}
 
         body {
             /*border: 1px solid rgb(201, 12, 12);*/
@@ -68,7 +71,7 @@
         .top-sec {
             background-color: #1365df00;
             margin: auto auto;
-            margin-top: 4%;
+            /*margin-top: 4%;*/
             display: flex;
             /*justify-content: space-evenly;*/
         }
@@ -381,12 +384,38 @@
             border-bottom-left-radius: 7px;
             border-bottom-right-radius: 7px;
         }
+
+        .a1 {
+            width: 50px;
+            height: 50px;
+            background-color: #00000091;
+            position: fixed;
+            bottom: 40px;
+            left: 25px;
+            border: 3px solid rgba(24, 24, 27, 0);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+        }
+
+        #fi {
+            font-size: 25px;
+            color: #E7FBBE;
+            font-weight: 900;
+        }
+        
+        #topp{
+            display: hide;
+        }
     </style>
 </head>
 
 <body>
     <div></div>
-    <div class="container">
+    <div  class="container">
+        <a  id="topp"></a>
         <div class="top-sec">
             <div class="ci1"><i class="fa-solid fa-user-tie" id="i1" alt="رزومه" title="رزومه"></i></div>
             <div class="ci6"></div>
@@ -411,7 +440,8 @@
         <div>
             <div class="content-text">
                 <div class="text">
-                    <br /><p class="t1">صحنه نخست: از اَلَست تا دو راهی دنیا</p>
+                    <br />
+                    <p class="t1">صحنه نخست: از اَلَست تا دو راهی دنیا</p>
                     <tmain>از نیمه‌های فروردین ۷۵ چند روزی بیشتر نگذشته
                         بود که به دنیا آمدم خانه به تازگی از
                         کشمکش‌های خانه‌تکانی و جدال‌های نابرابر دید و بازدیدهای عید جان سالم به در برده بود (البته آن
@@ -460,16 +490,16 @@
                 </div>
             </div>
         </div>
-        <div class="finsec">3
-            <p>3</p>
-            <p>3</p>
-            <p>3</p>
-            <p>3</p>
-            <p>3</p>
-
+        <div class="finsec">contact
+            <p>instagram</p>
+            <p>whatsapp</p>
+            <p>linkedin</p>
+            <p>gmail</p>
+            <p></p>
         </div>
     </div>
-    <div></div>
+    <a class="a1" href="#topp"><i id="fi" class="fa-solid fa-angle-up"></i></a>
+
 </body>
 
 </html>
