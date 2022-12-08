@@ -9,9 +9,9 @@
 }
 
 body {
-  /*background: linear-gradient(99deg, #272727, #F5F5DC, #E1c699);
+  background: linear-gradient(99deg, #272727, #F5F5DC, #E1c699);
   background-size: 2000%;
-  animation: GradientBackground 11s ease infinite;*/
+  animation: GradientBackground 11s ease infinite;
 }
 
 @keyframes GradientBackground {
@@ -101,7 +101,7 @@ body {
   text-justify: inter-word;
   font-family: Zobeir;
   font-weight: 300;
-  font-size: 60%;
+  font-size: 80%;
   /*margin-top: 10%;*/
   /*padding: 10%;*/
   /*margin-left: 2%;
