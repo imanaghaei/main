@@ -9,9 +9,9 @@
 }
 
 body {
-  background: linear-gradient(99deg, #272727, #F5F5DC, #E1c699);
+  /*background: linear-gradient(99deg, #272727, #F5F5DC, #E1c699);
   background-size: 2000%;
-  animation: GradientBackground 11s ease infinite;
+  animation: GradientBackground 11s ease infinite;*/
 }
 
 @keyframes GradientBackground {
@@ -150,8 +150,8 @@ body {
   margin-right: auto;
   margin-bottom: auto;
   /*height: 100px;*/
-  -webkit-animation: swing-in-bottom-fwd 5s cubic-bezier(0.175, 0.885, 0.320, 1.275) 2s infinite alternate both;
-  animation: swing-in-bottom-fwd 5s cubic-bezier(0.175, 0.885, 0.320, 1.275) 2s infinite alternate both;
+  -webkit-animation: swing-in-bottom-fwd 5s cubic-bezier(0.175, 0.885, 0.320, 1.275) 2s alternate both;
+  animation: swing-in-bottom-fwd 5s cubic-bezier(0.175, 0.885, 0.320, 1.275) 2s alternate both;
 }
 
 /* ----------------------------------------------
@@ -212,8 +212,8 @@ body {
   margin-right: auto;
   margin-bottom: auto;
   /*height: 100px;*/
-  -webkit-animation: swing-in-bottom-fwd 5s cubic-bezier(0.175, 0.885, 0.320, 1.275) 6s infinite alternate both;
-  animation: swing-in-bottom-fwd 5s cubic-bezier(0.175, 0.885, 0.320, 1.275) 6s infinite alternate both;
+  -webkit-animation: swing-in-bottom-fwd 5s cubic-bezier(0.175, 0.885, 0.320, 1.275) 6s alternate both;
+  animation: swing-in-bottom-fwd 5s cubic-bezier(0.175, 0.885, 0.320, 1.275) 6s alternate both;
 }
 
 /* ----------------------------------------------
@@ -274,8 +274,8 @@ body {
   margin-right: auto;
   margin-bottom: auto;
   /*height: 100px;*/
-  -webkit-animation: swing-in-bottom-fwd 5s cubic-bezier(0.175, 0.885, 0.320, 1.275) 10s infinite alternate both;
-  animation: swing-in-bottom-fwd 5s cubic-bezier(0.175, 0.885, 0.320, 1.275) 10s infinite alternate both;
+  -webkit-animation: swing-in-bottom-fwd 5s cubic-bezier(0.175, 0.885, 0.320, 1.275) 10s alternate both;
+  animation: swing-in-bottom-fwd 5s cubic-bezier(0.175, 0.885, 0.320, 1.275) 10s alternate both;
 }
 
 /* ----------------------------------------------
@@ -336,8 +336,8 @@ body {
   margin-right: auto;
   margin-bottom: auto;
   /*height: 100px;*/
-  -webkit-animation: swing-in-bottom-fwd 5s cubic-bezier(0.175, 0.885, 0.320, 1.275) 12s infinite alternate both;
-  animation: swing-in-bottom-fwd 5s cubic-bezier(0.175, 0.885, 0.320, 1.275) 12s infinite alternate both;
+  -webkit-animation: swing-in-bottom-fwd 5s cubic-bezier(0.175, 0.885, 0.320, 1.275) 12s alternate both;
+  animation: swing-in-bottom-fwd 5s cubic-bezier(0.175, 0.885, 0.320, 1.275) 12s alternate both;
 }
 
 /* ----------------------------------------------
@@ -398,8 +398,8 @@ body {
   margin-right: auto;
   margin-bottom: auto;
   /*height: 100px;*/
-  -webkit-animation: swing-in-bottom-fwd 5s cubic-bezier(0.175, 0.885, 0.320, 1.275) 15s infinite alternate both;
-  animation: swing-in-bottom-fwd 5s cubic-bezier(0.175, 0.885, 0.320, 1.275) 15s infinite alternate both;
+  -webkit-animation: swing-in-bottom-fwd 5s cubic-bezier(0.175, 0.885, 0.320, 1.275) 15s alternate both;
+  animation: swing-in-bottom-fwd 5s cubic-bezier(0.175, 0.885, 0.320, 1.275) 15s alternate both;
 }
 
 /* ----------------------------------------------
