@@ -42,7 +42,7 @@ body {
   position: sticky;
   top: 0;
   z-index: 1;
-  width: 50%;
+  width: 70%;
   margin: auto auto;
   font-family: Zobeir;
   /*align-items: center;
@@ -126,7 +126,7 @@ body {
             position: sticky;
             top: 0;
             z-index: 1;*/
-  width: 50%;
+  width: 70%;
   margin: auto auto;
   /*align-items: center;
             align-content: center;*/
