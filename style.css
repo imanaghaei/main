@@ -67,35 +67,35 @@ body {
 
 .home{
   display: block;
-  width: 50%;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
 }
 
 .contact{
   display: block;
-  width: 40%;
+  width: 70%;
   margin-left: auto;
   margin-right: auto;
 }
 
 .poem{
   display: block;
-  width: 40%;
+  width: 70%;
   margin-left: auto;
   margin-right: auto;
 }
 
 .articles{
   display: block;
-  width: 40%;
+  width: 70%;
   margin-left: auto;
   margin-right: auto;
 }
 
 .resume{
   display: block;
-  width: 40%;
+  width: 70%;
   margin-left: auto;
   margin-right: auto;
 }
