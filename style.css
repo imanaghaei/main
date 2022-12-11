@@ -19,9 +19,10 @@ body {
   background-image: url('vecteezy_grunge-brick-wall-abstract-background-texture-with-old_7218742_163.jpg');
   background-position: center;
   background-size: cover;
-  /*background-color: #248792;*/ 
+  /*background-color: #248792;*/
 }
-  /*background: linear-gradient(99deg, #272727, #F5F5DC, #E1c699);
+
+/*background: linear-gradient(99deg, #272727, #F5F5DC, #E1c699);
   background-size: 2000%;
   animation: GradientBackground 11s ease infinite;
 }
@@ -41,7 +42,8 @@ body {
 }*/
 
 .back1 {
-  background: linear-gradient(0deg, rgba(64, 59, 74, 0.3), #362222, rgba(231, 233, 187, 0.3));
+  background: linear-gradient(180deg, rgb(0, 0, 0), #3622224b, rgb(235, 61, 61));
+  /*background: linear-gradient(0deg, rgba(64, 59, 74, 0.3), #362222, rgba(231, 233, 187, 0.3));*/
   background-size: 2%;
   /*animation: GradientBackground 11s ease infinite;*/
   /*background: linear-gradient(180deg, #c5a08477 25%, #ae6e4e 100%);*/
@@ -49,12 +51,12 @@ body {
   border-top-left-radius: 30px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 30px;
-  box-shadow: 0px 5px 7px #0000008f;
+  box-shadow: 0px 5px 7px #000000;
   /*position: -webkit-sticky;
   position: sticky;
   top: 0;
   z-index: 1;*/
-  width: 70%;
+  width: 75%;
   margin-top: 2%;
   margin-left: auto;
   margin-right: auto;
@@ -65,37 +67,37 @@ body {
   align-content: center;
 }
 
-.home{
+.home {
   display: block;
-  width: 80%;
+  width: 75%;
   margin-left: auto;
   margin-right: auto;
 }
 
-.contact{
+.contact {
   display: block;
-  width: 70%;
+  width: 60%;
   margin-left: auto;
   margin-right: auto;
 }
 
-.poem{
+.poem {
   display: block;
-  width: 70%;
+  width: 60%;
   margin-left: auto;
   margin-right: auto;
 }
 
-.articles{
+.articles {
   display: block;
-  width: 70%;
+  width: 60%;
   margin-left: auto;
   margin-right: auto;
 }
 
-.resume{
+.resume {
   display: block;
-  width: 70%;
+  width: 60%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -163,7 +165,7 @@ body {
 }
 
 .back3 {
-  background: linear-gradient(0deg, rgb(235, 61, 61), #3622224b, rgb(255, 255, 255));
+  background: linear-gradient(0deg, rgb(255, 255, 255), #3622224b, rgb(235, 61, 61));
   background-size: 2%;
   animation: GradientBackground 11s ease infinite;
   /*background: linear-gradient(180deg, #c5a08477 25%, #ae6e4e 100%);*/
@@ -177,7 +179,7 @@ body {
             position: sticky;
             top: 0;
             z-index: 1;*/
-  width: 70%;
+  width: 50%;
   margin: auto auto;
   /*align-items: center;
             align-content: center;*/
@@ -553,4 +555,32 @@ body {
     transform: translateZ(0);
     opacity: 1;
   }
+}
+
+.iconins {
+  display: block;
+  width: 45%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.iconin {
+  display: block;
+  width: 45%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.icongm {
+  display: block;
+  width: 45%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.icontel {
+  display: block;
+  width: 45%;
+  margin-left: auto;
+  margin-right: auto;
 }
