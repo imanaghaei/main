@@ -6,22 +6,22 @@
 }
 
 @font-face {
-  font-family: CONTOURG;
-  src: url(CONTOURG.ttf);
+  font-family: 'CONTOURG';
+  src: url('CONTOURG.ttf');
 }
 
 @font-face {
-  font-family: Zobeir;
-  src: url(Zobeir.ttf);
+  font-family: 'Zobeir';
+  src: url('Zobeir.ttf');
 }
 
 @font-face {
-  font-family: Afaaq;
-  src: url(Afaaq.ttf);
+  font-family: 'Afaaq';
+  src: url('Afaaq.ttf');
 }
 
 body {
-  background-image: url('vecteezy_grunge-brick-wall-abstract-background-texture-with-old_7218742_163.jpg');
+  background-image: url('bgbody.jpg');
   background-position: center;
   background-size: cover;
   /*background-color: #248792;*/
@@ -77,6 +77,8 @@ body {
   width: 75%;
   margin-left: auto;
   margin-right: auto;
+  /*box-shadow: rgb(240, 248, 255) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+  border-radius: 50%;*/
 }
 
 .contact {
@@ -574,6 +576,7 @@ body {
   width: 80%;
   margin-left: auto;
   margin-right: auto;
+  
 }
 
 .icongm {
