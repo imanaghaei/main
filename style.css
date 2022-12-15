@@ -21,8 +21,6 @@
 }
 
 @font-face {
-
-@font-face {
   font-family: 'CONTOURG';
   src: url('CONTOURG.ttf');
 }
@@ -37,11 +35,11 @@
   src: url('Afaaq.ttf');
 }
 
-.body {
+body {
   background-image: url('bgbody.jpg');
   background-position: center;
   background-size: cover;
-  /*background-color: #248792;*/
+  background-color: #248792
 }
 
 /*background: linear-gradient(99deg, #272727, #F5F5DC, #E1c699);
