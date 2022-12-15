@@ -5,7 +5,6 @@
   text-align: justify;
 }
 
-<<<<<<< HEAD
 @font-face{
   font-family: 'Titr';
   src: url('Titr.ttf');
@@ -22,7 +21,7 @@
 }
 
 @font-face {
-=======
+
 @font-face {
   font-family: 'CONTOURG';
   src: url('CONTOURG.ttf');
@@ -34,12 +33,11 @@
 }
 
 @font-face {
->>>>>>> 85be3df0b65f9a7e80de5841b6483eaa31542ffa
   font-family: 'Afaaq';
   src: url('Afaaq.ttf');
 }
 
-body {
+.body {
   background-image: url('bgbody.jpg');
   background-position: center;
   background-size: cover;
